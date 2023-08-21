@@ -35,16 +35,13 @@ public class Calculadora {
                 // Operación modulo:
                 int modulo = numero1 % numero2;
                 System.out.println("El módulo es " + modulo);
-
+                break;
             case '^':
                 // Operación potencia:
                 double potencia = Math.pow(numero1, numero2);
                 System.out.println("La potencia es " + potencia);
-
                 break;
-
             default:
-
                 System.out.println("operación invalida");
         }
     }
